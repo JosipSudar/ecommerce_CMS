@@ -1,6 +1,6 @@
 import Headline from "@/components/Headline";
 
-const Kanban = () => {
+const Kanban: React.FC = () => {
   const allowDrop = (e: React.DragEvent<HTMLDivElement>) => {
     e.preventDefault();
   };
@@ -20,8 +20,10 @@ const Kanban = () => {
   return (
     <div>
       <Headline title="Kanban board" subtitle="Track your projects" />
-      <hr className="my-5" />
-      <div id="app" className="flex justify-between p-10">
+      <div
+        id="app"
+        className="flex justify-between p-10 bg-orange-700 m-10 rounded-md shadow"
+      >
         <div
           className="column bg-gray-100 p-4 rounded mr-4 text-center flex-1"
           id="todo-column"

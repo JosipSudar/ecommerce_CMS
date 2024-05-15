@@ -6,7 +6,6 @@ const Home: React.FC = () => {
   return (
     <div className="">
       <Headline title="Welcome" subtitle="Admin" />
-      <hr className="my-5" />
       <div className="p-10">
         <div className="flex gap-5">
           <Card

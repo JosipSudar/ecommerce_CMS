@@ -30,6 +30,7 @@ const Headline: React.FC<HeadlineProps> = ({
       <div className="text-center text-slate-300 drop-shadow-sm">
         <p>Unable to fetch current weather.</p>
       </div>
+      <hr className="my-5" />
     </div>
   );
 };
