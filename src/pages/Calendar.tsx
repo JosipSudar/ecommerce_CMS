@@ -1,5 +1,9 @@
-const Calendar = () => {
-  return <div>Calendar</div>;
+const Calendar: React.FC = () => {
+  return (
+    <div className="">
+      <h1>Calendar</h1>
+    </div>
+  );
 };
 
 export default Calendar;
